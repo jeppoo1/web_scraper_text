@@ -34,10 +34,11 @@ text = ' '.join(chunk for chunk in chunks if chunk)
 print("\n", text)
 
 
-# Writing to a text file
-# (Remember to specify a path)
+# Writing to a text file ## (Remember to specify a path)
 
 file1 = open("scraped_text.txt", "w", encoding = 'utf-8')
 file1.write(text)
 file1.close()
 print("\nFinished writing to", file1)
+
+# End of file
